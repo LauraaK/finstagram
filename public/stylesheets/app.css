@@ -6,6 +6,11 @@ header
   body 
     {
     background-color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
     }
   main 
     {
@@ -21,9 +26,19 @@ header
     {
         border-radius: 50%;
     }
-
-      
-  
+    a.photo:hover
+    {
+      padding: 10px;
+      transition: padding 0.5sec;
+    }
+    a.photo
+    {
+      transition: 0.5s;
+    }
+    a.photo:hover
+    {
+      padding: 10px;
+    }
 
   
 
