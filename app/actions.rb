@@ -20,7 +20,7 @@ def humanized_time_ago(time_ago_in_minutes)
       }]
     }
   
-    finstagram_post_whale = {
+    finstagram_post_whale =  {
       username: "kirk_whalum",
       avatar_url: "http://naserca.com/images/kirk_whalum.jpg",
       photo_url: "http://naserca.com/images/whale.jpg",
