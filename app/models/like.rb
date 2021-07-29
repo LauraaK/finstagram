@@ -1,3 +1,7 @@
 class Like < ActiveRecord::Base
 
-end
+    belongs_to :user
+    belongs_to :finstagram_post
+  
+  end
+  
